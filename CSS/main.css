@@ -594,10 +594,12 @@ body {
           height: 106px;
           margin-bottom: 30px;
         }
-        ul li {
-          color: var(--main-color);
-          font-size: 15px;
-          margin-bottom: 15px;
+        ul {
+          li {
+            color: var(--main-color);
+            font-size: 15px;
+            margin-bottom: 15px;
+          }
           .not-option {
             color: #afafaf;
             text-decoration: line-through;
